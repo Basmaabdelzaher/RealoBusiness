@@ -28,6 +28,8 @@ body {
     .highlight {
         color: $primary-color;
     }
+
+   
 }
 
 #header
@@ -163,21 +165,34 @@ body {
     background: lighten(#ccc, 15);
 }
 
-footer {
-    padding: 1rem 0.5rem;
+.footer {
+    //padding: 1rem 0.5rem;
+    background: $secondary-color;
+    color: #fff;
     a {
         text-decoration: none;
-        color: #444;
+        color: #fff;
         &.navLink {
             font-size: 0.9em;
             padding-right: 20px; 
-            font-weight: bold;
+            //font-weight: bold;
             &:hover {
                 color: $primary-color;
             }
         }
     }
 }
+
+// .footer
+// {
+//     background: #3b064d;
+//     padding: 5px;
+//     color: #fff;
+//     .navLink
+//     {
+//         color: #fff;
+//     }
+// }
 
 #contactScreen {
     label {
